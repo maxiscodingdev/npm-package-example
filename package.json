@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "tsup",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci": "npm run install"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
