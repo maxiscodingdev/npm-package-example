@@ -34,8 +34,9 @@ jobs:
         run: git config --global user.name "Max Zaytsev"
       - name: "Put a tag"
         run: npm version patch
-      - name: "Push the changes"
-        run: git push --tags
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          push_options: '--tags'
       - name: "Publish the package"
         run: npm publish --access=public
         env:
