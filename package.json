@@ -1,6 +1,6 @@
 {
   "name": "@maxiscoding/npm-package-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Maxim Zaytsev <max.zaytsev@team.bumble.com>",
   "license": "MIT",
   "main": "./dist/index.js",
