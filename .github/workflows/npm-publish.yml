@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 20
       - name: "Run CI"
-        run: npm ci
+        run: npm run ci:clean
       - name: "Build the package"
         run: npm run build
 
