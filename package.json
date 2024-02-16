@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-example",
+  "name": "@maxiscoding/npm-package-example",
   "version": "1.0.0",
   "author": "Maxim Zaytsev <max.zaytsev@team.bumble.com>",
   "license": "MIT",
