@@ -28,6 +28,10 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+      - name: "Set Git email"
+        run: git config --global user.email "max@maxiscoding.com"
+      - name: "Set Git name"
+        run: git config --global user.name "Max Zaytsev"
       - name: "Put a tag"
         run: npm version patch
       - name: "Push the changes"
